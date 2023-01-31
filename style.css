@@ -193,3 +193,20 @@ margin: auto;
 		justify-items: center;
 	}
 }
+
+@media screen and (max-width: 650px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 12px;
+	}
+	#who img {
+		max-height: 200px;
+		margin: 125px;
+	}
+}
